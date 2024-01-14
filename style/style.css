@@ -205,11 +205,38 @@ nav ul li a{
     background-color: var(--button_color);
     padding: 10px 24px;
     border: none;
-    /* border-radius: 41px; */
     margin-top: 16px;
 }
 .feature_btn i{
     margin-left: 8px;
+}
+/* footer part */
+#footer_part{
+    background-color: #0A0826;
+    padding: 50px 0;
+}
+.footer_content h2{
+    font-size: 24px;
+    font-family: var(--poppins);
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 3px;
+}
+.footer_content p{
+    font-size: 14px;
+    font-family: var(--inter);
+    font-weight: 700;
+    color: #D9DBE1;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.footer_content .f_icon{
+    width: 173px;
+    display: flex;
+    gap: 15px;
+    margin: 15px  auto;
 }
 
 
@@ -241,4 +268,31 @@ nav ul li a{
     .company_logo img{
         width: 30px;
     }
+    #popular_collection_part{
+        padding: 5px;
+    }
+    .collection_content{
+        align-items: center;
+        gap: 20px;
+    }
+    .collection_content .card{
+        padding: 10px;
+    }
+    #feature_part{
+        margin: 0;
+        width: 100%;
+    }
+    .feature_content{
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 35px;
+        padding: 10px;
+    }
+    .feature_image{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    /* footer */
+   
 }
