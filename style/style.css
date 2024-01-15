@@ -55,6 +55,7 @@ nav ul li a{
     align-items: center;
     margin: 50px 0px;
 }
+
 .header_text h1{
     font-size: 3.25rem;
     font-family: var(--poppins);
@@ -81,15 +82,21 @@ nav ul li a{
 .header_text button i{
     margin-left: 8px;
 }
+
 .header_image{
     background-image: url('../images/Circle-design.svg');
     background-repeat: no-repeat;
     width: 475px;
     height: 475px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    /* width: 48%;
+    height: 100%; */
 }
 .header_image  img{
     width: 440px;
-    position: relative;
+    position: absolute;
     top: 20px;
     left: 8px;
 }
@@ -98,7 +105,6 @@ nav ul li a{
     margin: 0 auto;
     display: flex;
     padding: 35px 60px;
-    display: flex;
     gap: 75px;
 }
 /* populart collection part */
@@ -254,45 +260,43 @@ nav ul li a{
     .header_content{
         flex-direction: column-reverse;
     }
-    .header_image, .header_image img{
-        width: 100%;
-        height: 100%;
+    .header_image{
+        width: 90%;
+        /* height: 100%; */
+    }
+    .header_image img{
+        width: 90%;
+        height: 90%;
+        top: 5%;
+        left: 5%;
     }
     .company_logo{
-        padding: 0;
-        width: 100%;
-        gap: 20px;
+    
+        width: 90%;
+        padding: 10px;
         flex-wrap: wrap;
-        margin: 0 auto;
+        gap: 30px;
+        margin: 0;
     }
-    .company_logo img{
-        width: 30px;
-    }
+    
     #popular_collection_part{
-        padding: 5px;
+        padding: 15px;
     }
     .collection_content{
         align-items: center;
         gap: 20px;
-    }
-    .collection_content .card{
-        padding: 10px;
+        justify-content: center;
     }
     #feature_part{
         margin: 0;
-        width: 100%;
+        padding: 10px;
     }
     .feature_content{
-        flex-direction: column-reverse;
-        align-items: center;
-        margin-top: 35px;
-        padding: 10px;
+        flex-direction: column;
     }
     .feature_image{
         width: 100%;
-        margin-top: 20px;
     }
-
-    /* footer */
+    
    
 }
